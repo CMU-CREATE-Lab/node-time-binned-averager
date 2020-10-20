@@ -1,0 +1,27 @@
+{
+  "name": "time-binned-averager",
+  "version": "1.0.0",
+  "description": "Class for computing time-binned averages of data samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMU-CREATE-Lab/node-time-binned-averager.git"
+  },
+  "author": "Chris Bartley <bartley@cmu.edu>",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/CMU-CREATE-Lab/node-time-binned-averager/issues"
+  },
+  "homepage": "https://github.com/CMU-CREATE-Lab/node-time-binned-averager#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "data-type-utils": "^1.4.2"
+  }
+}
